@@ -201,3 +201,59 @@ transform: scale(1);
 {
   color: var(--mainWhite);
 }
+/* Featured Section Styles */
+.featured
+{
+  background: var(--mainGrey);
+}
+.feature-item
+{
+  background: var(--mainWhite);
+  border-radius: 0.5rem;
+  opacity: 50%;
+  cursor: pointer;
+  transition: all .78s ease-in-out;
+}
+.feature-item:hover
+{
+  opacity: 100%;
+  transform: scale(1.05);
+}
+.feature-icon {
+  font-size: 1.5rem;
+  color: var(--mainBlue);
+  cursor: pointer;
+  transition: 0.32s all ease-in-out;
+}
+.feature-icon:hover{
+  color: var(--mainYellow);
+}
+.img-container{
+  background: var(--mainBlue);
+  position: relative;
+  overflow: hidden;
+}
+.featured-photo{
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .featured-photo{
+  transform: scale(1.3);
+  opacity: 50%;
+}
+.featured-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%,-50%);
+  color: var(--mainBlack);
+  opacity: 0%;
+  transition: all 1.2s linear;
+}
+.featured-link:hover{
+  color: var(--mainWhite);
+  opacity: 100%;
+}
+.img-container:hover .featured-link{
+  opacity: 100%;
+}
