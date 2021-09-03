@@ -1,6 +1,9 @@
 # Car-Exhibition
-Car exhibiton site made by HTML & css
-in order to learn & work with Bootstrap framework
+Car exhibiton site 
+## Aims :
+###  Working more with  HTML & css
+###  Learn & work with Bootstrap framework
+###  Creating Responsive webpages easier than flexbox :)
 
 # How to Use
  ### 1.download the zip file or clone the repostory on your IDE
