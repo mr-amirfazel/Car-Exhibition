@@ -135,3 +135,17 @@ transform: scale(1);
   background-color: var(--mainBlue);
   margin: 1rem auto;
 }
+/* preLoader */
+.preloader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--mainWhite);
+  z-index: 999;
+}
+.hide-preloader
+{
+  display: none !important;
+}
