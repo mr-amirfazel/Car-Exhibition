@@ -52,3 +52,59 @@ color: var(--mainBlue);
 {
   color: var(--mainBlack);
 }
+
+/* Header Styling */
+
+.header
+{clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+  color: var(--mainWhite);
+  overflow: hidden;
+}
+.height-max
+{
+  min-height: calc(100vh - 76px);
+  background: url('../img/headerBcg.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  animation:zoom 15s infinite 5s;
+}
+@keyframes zoom
+{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+transform: scale(1.2) translateX(-5%);
+  }
+  100%{
+transform: scale(1);
+  }
+}
+.title-heading
+{
+  background: rgb(0,0,0,0.4, green, blue);
+  border-left: .3rem solid var(--mainBlue);
+}
+.title{
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+@media screen  and (min-width:768px) {
+  .title
+  {
+    font-size: 3rem;
+  }
+}
+.title-icon
+{
+  color: var(--mainBlue);
+  text-decoration: none !important;
+  transition: .5s linear;
+}
+.title-icon:hover
+{
+  color: var(--mainBlue);
+  opacity: .6;
+}
