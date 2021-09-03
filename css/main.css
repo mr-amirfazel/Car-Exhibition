@@ -108,3 +108,12 @@ transform: scale(1);
   color: var(--mainBlue);
   opacity: .6;
 }
+
+/* Section title  */
+.section-title-special
+{
+  background-color: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: .5rem 2rem;
+  clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+}
