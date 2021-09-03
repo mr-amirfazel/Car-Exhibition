@@ -16,3 +16,39 @@ body{
   background: var(--mainWhite);
 }
 /* REM values to target root element 1REM = 16px */
+
+/* navbar styles  */
+.navbar
+{
+  background-color: var(--mainWhite);
+}
+.navbar-icon
+{
+font-size: 2rem;
+color: var(--mainBlue);
+}
+.navbar-toggler
+{
+  outline-color: var(--mainBlue) !important;
+}
+.nav-link
+{
+  color: var(--mainBlack);
+  text-transform: capitalize;
+}
+.nav-link:hover
+{
+  color: var(--mainBlue);
+}
+.nav-icon{
+  font-size: 1.5rem !important;
+  color: var(--mainBlue);
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 1.2s;
+  animation-timing-function: linear;
+}
+.nav-icon:hover
+{
+  color: var(--mainBlack);
+}
