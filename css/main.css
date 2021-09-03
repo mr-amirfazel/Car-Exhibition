@@ -76,7 +76,9 @@ color: var(--mainBlue);
     transform: scale(1);
   }
   50%{
-transform: scale(1.2) translateX(-5%);
+transform: scale(1.2) 
+translateX(-5%)
+;
   }
   100%{
 transform: scale(1);
@@ -116,4 +118,20 @@ transform: scale(1);
   color: var(--mainWhite);
   padding: .5rem 2rem;
   clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+}
+/* skills styles */
+.skills-icon{
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+}
+.skills-icon:hover
+{
+  color: var(--mainYellow);
+}
+.skills-underline{
+  width: 4rem;
+  height: 0.3rem;
+  background-color: var(--mainBlue);
+  margin: 1rem auto;
 }
