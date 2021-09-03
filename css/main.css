@@ -149,3 +149,55 @@ transform: scale(1);
 {
   display: none !important;
 }
+/* inventory */
+.inventory
+{
+  background-color: var(--mainGrey);
+}
+.car-card
+{
+  border-radius: 0 !important;
+}
+.car-img
+{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.car-value
+{
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(0% 0,99% 0,100% 100%,0 100%);
+  transition: 1.3s linear;
+}
+.car-value:hover
+{
+  clip-path: polygon(0% 0,100% 0,100% 100%,0 85%);
+}
+.question
+{
+  background: url('../img/questionBcg.jpeg')center/cover fixed no-repeat;
+}
+.question-gray
+{
+  background: rgba(79,109,122,0.75);
+}
+.question-yellow
+{
+  background: rgba(277,181,5,0.75);
+}
+.question-icon
+{
+  font-size: 4rem;
+  color: var(--mainBlue);
+  transition: all .5s ease-in-out;
+}
+.question-icon:hover
+{
+  transform: translateY(-5%);
+  color: var(--mainBlue);
+}
+.question-info
+{
+  color: var(--mainWhite);
+}
