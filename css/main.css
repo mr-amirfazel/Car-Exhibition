@@ -357,3 +357,25 @@ transform: scale(1);
   font-size: 4rem;
   color: var(--mainYellow);
 }
+/* customer */
+.customer-card-card{
+  margin-top: -4rem !important;
+  color: var(--mainGrey);
+}
+.customer-img{
+  border: 0.4rem solid var(--mainWhite);
+}
+.customer-name{
+  color: var(--mainBlue);
+  margin: .5rem;
+}
+.customer-icon{
+  font-size: 2rem;
+  color: var(--mainGrey);
+}
+.customer-job{
+  color: var(--mainBlack);
+}
+.customer-quote{
+  max-width: 90%;
+}
