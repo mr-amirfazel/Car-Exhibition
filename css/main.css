@@ -285,3 +285,30 @@ transform: scale(1);
 .gallery-item:hover::after{
   transform: scale(1);
 }
+/* Contact styles */
+.contact{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/headerBcg.jpeg')center/cover fixed no-repeat;
+}
+.contact-input{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background: transparent;
+  border-color: var(--mainYellow);
+  color: var(--mainYellow) !important;
+}
+.contact-input::placeholder{
+  color: var(--mainYellow);
+}
+.contact-input:focus{
+  background: transparent;
+  border-color: var(--mainYellow);
+}
+.contact-btn{
+  text-transform: uppercase;
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+.contact-btn:hover{
+  background: var(--mainYellow);
+  border-color: var(--mainBlack);
+}
